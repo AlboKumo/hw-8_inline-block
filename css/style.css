@@ -1,0 +1,58 @@
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Удаляю размер шрифта */
+.wrapper{
+    font-size: 0;
+    border: 4px solid red;
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/* Возвращаю шрифт блокам с контентом сайта и придаю стили */
+.item{
+    width: calc(100% / 3);
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.thing{
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* Стилизация внутри item */
+.item img{
+    height: 200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+.item h4 {
+    color: royalblue;
+    text-align: center;
+}
+.item p {
+    color: darkgray;
+    text-align: center;
+}
+
+/* Стилизация внутри thing */
+.thing h2{
+    text-align: center;
+}
+.thing h3{
+    padding-bottom: 30px ;
+}
+.thing dl dd{
+    padding: 10px 0;
+}
