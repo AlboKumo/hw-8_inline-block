@@ -1,5 +1,5 @@
 .container{
-    max-width: 80%;
+    max-width: 1250px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -18,15 +18,14 @@
     width: calc(100% / 3);
     display: inline-block;
     font-size: 18px;
-    margin: 0 auto;
-    padding: 20px;
+    padding: 20px 15px;
     box-sizing: border-box;
+    text-align: center;
 }
 .thing{
     width: 50%;
     display: inline-block;
     font-size: 18px;
-    margin: 0 auto;
     box-sizing: border-box;
     padding: 20px;
 }
@@ -34,16 +33,13 @@
 /* Стилизация внутри item */
 .item img{
     height: 200px;
-    margin: 0 auto;
     padding: 16px;
 }
 .item h4 {
     color: royalblue;
-    text-align: center;
 }
 .item p {
     color: darkgray;
-    text-align: center;
 }
 
 /* Стилизация внутри thing */
@@ -55,4 +51,5 @@
 }
 .thing dl dd{
     padding: 10px 0;
+    color: darkgray;
 }
